@@ -10,13 +10,27 @@
     <?php echo '<h1>Welcome to HTTP 5225</h1>' ?>
     <?php echo '<p>We will learn PHP in this class</p>' ?>
 
-    <h1>Welcome to HTTP 5225</h1>
+    <!-- <h1>Welcome to HTTP 5225</h1>
     <p>We will learn PHP in this class</p>
-    <p>We will learn the following</p>
-    <ul>
+    <p>We will learn the following</p> -->
+
+    <?php echo '<ul>
         <li>PHP</li>
         <li>SQL</li>
         <li>Laravel</li>
-    </ul>
+    </ul>'; ?>
+
+    <?php
+        $fname = 'ayushi';
+        $lname = 'behl';
+        $names['firstName'] = 'Alka';
+        $names['lastName'] = 'Behl';
+    ?>
+
+    <?php 
+        echo 'Hello ' . $fname . ' ' . $lname;
+        echo 'Hello ' . $names['firstName'] . ' ' . $names['lastName'];
+    ?>
+    
 </body>
 </html>
